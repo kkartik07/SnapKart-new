@@ -5,26 +5,30 @@ import logo from "../../../images/logo.png";
 const options = {
   burgerColorHover: "#eb4034",
   logo,
-  logoWidth: "20vmax",
-  navColor1: "white",
-  logoHoverSize: "10px",
+  logoWidth: "24vmax",
+  navColor1: "rgb(255, 179, 170,1)",
+  logoHoverSize: "15px",
   logoHoverColor: "#eb4034",
   link1Text: "Home",
   link2Text: "Products",
-  link3Text: "Contact",
-  link4Text: "About",
+  link3Text: "About",
+  link4Text: "Login",
   link1Url: "/",
   link2Url: "/products",
-  link3Url: "/contact",
-  link4Url: "/about",
-  link1Size: "1.3vmax",
+  link3Url: "/about",
+  link4Url: "/login",
+  link1Size: "1.5vmax",
   link1Color: "rgba(35, 35, 35,0.8)",
+  link4Color: "rgba(35,35,35,0.8)",
   nav1justifyContent: "flex-end",
   nav2justifyContent: "flex-end",
   nav3justifyContent: "flex-start",
   nav4justifyContent: "flex-start",
   link1ColorHover: "#eb4034",
   link1Margin: "1vmax",
+  link2Margin: "3vmax",
+  link3Margin: "1vmax",
+  link4Margin: "5vmax",
   profileIconUrl: "/login",
   profileIconColor: "rgba(35, 35, 35,0.8)",
   searchIconColor: "rgba(35, 35, 35,0.8)",
@@ -32,11 +36,13 @@ const options = {
   profileIconColorHover: "#eb4034",
   searchIconColorHover: "#eb4034",
   cartIconColorHover: "#eb4034",
-  cartIconMargin: "1vmax",
+  cartIconMargin: "4vmax",
 };
 
 const Header = () => {
-  return <ReactNavbar {...options} />;
+  return <>
+    <ReactNavbar {...options} />
+  </>
 };
 
 export default Header;

@@ -5,6 +5,7 @@
   padding: 4rem 0;
 }
 
+
 .sidebar > a:first-child {
   padding: 0;
 }
@@ -16,7 +17,7 @@
 .sidebar > a > img:hover {
   filter: drop-shadow(0 0 10px tomato);
 }
-.sidebar a {
+.sidebar a,#tree {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.493);
   font: 200 1rem "Roboto";
@@ -28,11 +29,11 @@
   transform: scale(1.1);
 }
 
-.sidebar a > P {
+.sidebar a > P ,#tree{
   display: flex;
   align-items: center;
 }
-.sidebar a > p > svg {
+.sidebar a > p > svg,#tree {
   margin-right: 0.5rem;
 }
 
