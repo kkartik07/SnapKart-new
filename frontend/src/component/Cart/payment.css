@@ -48,7 +48,8 @@
   border: none;
   background-color: tomato;
   color: white;
-  font: 300 0.9vmax "Roboto";
+  border-radius: 15px;
+  font: 300 1vmax "Roboto";
   width: 100%;
   padding: 0.8vmax;
   cursor: pointer;
@@ -56,8 +57,16 @@
   outline: none;
 }
 
+.btn:hover {
+}
+
 .paymentFormBtn:hover {
-  background-color: rgb(179, 66, 46);
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
 }
 
 @media screen and (max-width: 600px) {
