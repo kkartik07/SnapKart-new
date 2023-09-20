@@ -1,0 +1,10 @@
+.productCard{
+    color:red;
+    border-radius: 20px;
+}
+#product{
+    margin-top:20px;
+    margin-bottom:10px;
+    width:auto;
+    height:auto;
+}

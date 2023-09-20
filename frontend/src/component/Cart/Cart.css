@@ -27,17 +27,18 @@
 
 .cartPage {
   padding: 5vmax;
+  margin-top: 60px;
 }
 
 .cartHeader {
-  background-color: tomato;
+  background-color: rgb(255, 99, 71);
   width: 90%;
   box-sizing: border-box;
   margin: auto;
   color: white;
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
-  font: 300 0.7vmax "Roboto";
+  font: 300 1.1vmax "Roboto";
 }
 .cartHeader > p {
   margin: 10px;
@@ -110,17 +111,33 @@
 .checkOutBtn {
   display: flex;
   justify-content: flex-end;
+  
 }
 .checkOutBtn > button {
+  background-image: linear-gradient(to right, #fc6076, #f3631b, #e66a13, #e75516);
+  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
   background-color: tomato;
   color: white;
   border: none;
   padding: 0.8vmax 4vmax;
-  width: 50%;
-  font: 300 0.8vmax "Roboto";
+  width: 40%;
+  font: 300 1vmax "Roboto";
   margin: 1vmax 4vmax;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 20px;
+  border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.checkOutBtn >button :hover{
+  background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
 }
 
 @media screen and (max-width: 600px) {

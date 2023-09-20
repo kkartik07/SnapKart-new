@@ -24,7 +24,7 @@ const MyOrders = () => {
     {
       field: "status",
       headerName: "Status",
-      minWidth: 150,
+      minWidth: 120,
       flex: 0.5,
       cellClassName: (params) => {
         return params.getValue(params.id, "status") === "Delivered"
@@ -88,7 +88,6 @@ const MyOrders = () => {
   return (
     <Fragment>
       <MetaData title={`${user.name} - Orders`} />
-
       {loading ? (
         <Loader />
       ) : (

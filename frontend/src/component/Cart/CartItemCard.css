@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .CartItemCard > img {
-  width: 5vmax;
+  width: 7vmax;
 }
 
 .CartItemCard > div {
@@ -16,19 +16,19 @@
 }
 
 .CartItemCard > div > a {
-  font: 300 0.9vmax cursive;
+  font: 300 1.4vmax cursive;
   color: rgba(24, 24, 24, 0.815);
   text-decoration: none;
 }
 
 .CartItemCard > div > span {
-  font: 300 0.9vmax "Roboto";
+  font: 300 1.2vmax "Roboto";
   color: rgba(24, 24, 24, 0.815);
 }
 
 .CartItemCard > div > p {
   color: tomato;
-  font: 100 0.8vmax "Roboto";
+  font: 100 1vmax "Roboto";
   cursor: pointer;
 }
 
