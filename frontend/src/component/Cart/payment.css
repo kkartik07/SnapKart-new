@@ -57,12 +57,9 @@
   outline: none;
 }
 
-.btn:hover {
-}
 
 .paymentFormBtn:hover {
   background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
