@@ -5,6 +5,10 @@
   padding: 6vmax;
   box-sizing: border-box;
   display: flex;
+  margin-top:20px;
+  margin-bottom:10px;
+  width:auto;
+  height:auto;
 }
 
 .ProductDetails > div {
@@ -23,7 +27,11 @@
 }
 
 .CarouselImage {
-  width: 20vmax;
+  max-width: 30vmax;
+  margin-top:20px;
+  margin-bottom:10px;
+  width:auto;
+  height:auto;
 }
 
 .detailsBlock-1 > h2 {

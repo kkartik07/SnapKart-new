@@ -84,24 +84,27 @@ const Products = ({ match }) => {
               valueLabelDisplay="auto"
               aria-labelledby="range-slider"
               min={0}
-              max={25000}
+              max={250000}
             />
-
-            <Typography>Categories</Typography>
-            <ul className="categoryBox">
-              {categories.map((category) => (
-                <li
-                  className="category-link"
-                  key={category}
-                  onClick={() => setCategory(category)}
-                >
-                  {category}
-                </li>
-              ))}
-            </ul>
-
             <fieldset>
-              <Typography component="legend">Ratings Above</Typography>
+            <Typography component="legend"><h3>Categories</h3></Typography>
+
+              <ul className="categoryBox">
+                {categories.map((category) => (
+                  <li
+                    className="category-link"
+                    key={category}
+                    onClick={() => setCategory(category)}
+                  >
+                    <hr></hr>
+                    {category}
+                  </li>
+                ))}
+            </ul>
+                </fieldset>
+                <br></br>
+            <fieldset>
+              <Typography component="legend"><h3>Ratings Above</h3></Typography>
               <Slider
                 value={ratings}
                 onChange={(e, newRating) => {

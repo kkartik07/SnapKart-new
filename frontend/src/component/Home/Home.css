@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  background-image: url("https://plus.unsplash.com/premium_photo-1684785617500-fb22234eeedd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,12 +14,15 @@
 
 .banner > h1 {
   margin: 5vmax;
-
-  font: 600 2.5vmax "Roboto";
+  font: 700 5vmax "Verdana";
+  color:rgb(240, 207, 207);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for a 3D effect */
 }
 
 .banner > p {
-  font: 300 1.4vmax "Lucida Sans";
+  font: 600 3vmax "Verdana";
+  color:rgb(250, 220, 215);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Add a shadow for a 3D effect */
 }
 
 .banner > a > button {
@@ -31,11 +34,15 @@
   padding: 1vmax;
   transition: all 0.5s;
   width: 9vmax;
-  font: 500 1vmax "Roboto";
+  font: 500 1.1vmax "Roboto";
+  border:none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add a shadow for a 3D effect */
 }
 .banner > a > button:hover {
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
+  background-color: rgb(153, 67, 67);
+  color:white;
+  font-size:large;
 }
 
 .banner::after {
@@ -49,7 +56,38 @@
   clip-path: polygon(100% 68%, 0 100%, 100% 100%);
   max-width: 100%;
 }
-
+img{
+  width: 45px;
+  height: 45px;
+}
+#contact{
+  z-index: 12;
+  position: fixed;
+  bottom: 20px; /* Adjust this value to control the vertical position */
+  right: 20px; /* Adjust this value to control the horizontal position */
+  width: 70px; /* Adjust this value to set the width of the circular container */
+  height: 70px; /* Adjust this value to set the height of the circular container */
+  background-color: #febdae; /* Change the background color as desired */
+  border-radius: 50%; /* Creates a circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Add a shadow for a 3D effect */
+}
+#search{
+  z-index: 12;
+  position: fixed;
+  bottom: 20px; /* Adjust this value to control the vertical position */
+  right: 120px; /* Adjust this value to control the horizontal position */
+  width: 70px; /* Adjust this value to set the width of the circular container */
+  height: 70px; /* Adjust this value to set the height of the circular container */
+  background-color: #febdae; /* Change the background color as desired */
+  border-radius: 50%; /* Creates a circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Add a shadow for a 3D effect */
+}
 .homeHeading {
   text-align: center;
   font-family: Roboto;
